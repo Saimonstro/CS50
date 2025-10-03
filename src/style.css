@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f6fa;
+  color: #333;
+}
+
+.app-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 2em;
+  background: #fff;
+  border-radius: 1.2em;
+  box-shadow: 0 2px 12px #0001;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.7em;
+  margin-bottom: 1.2em;
+}
+
+.converter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+input,
+select,
+button {
+  padding: 0.6em;
+  border-radius: 0.5em;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  margin-top: 0.3em;
+}
+
+button {
+  background: #1c89ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 1em;
+  padding: 1em;
+  background: #e6f2ff;
+  border-radius: 0.8em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 2em;
+  font-size: 0.85em;
+  color: #888;
+  text-align: center;
+}
